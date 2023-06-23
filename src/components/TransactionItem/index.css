@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.each-transaction-detail {
+  border: 2px solid #cbd5e1;
+  border-top-width: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.history-attribute-transaction {
+  color: #1e293b;
+  font-family: 'Roboto';
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.delete-icon {
+  width: 23px;
+}
+.delete-button {
+  border: 0px solid;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  text-align: right;
+  text-align: right;
+}

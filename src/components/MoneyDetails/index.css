@@ -1,0 +1,44 @@
+/* Write your CSS here */
+
+.income-tab-container {
+  background-color: #cffafe;
+  padding-left: 50px;
+  padding-right: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #06b6d4;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+.expenses-tab-container {
+  background-color: #ede9fe;
+  padding-left: 50px;
+  padding-right: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #7c3aed;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+.tab-image {
+  width: 80px;
+}
+.tab-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+.balance-text {
+  color: #475569;
+}
+.amount-text {
+  color: #475569;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: -1px;
+}
